@@ -136,7 +136,7 @@ $(document).ready(function() {
         const phenytoinLoadingCC = ((20 * weight) / 250 * 5).toFixed(1);
         const phenytoinMaintenanceCC = ((5 * weight) / 250 * 5).toFixed(1);
         const levetiracetamCC = ((10 * weight) / 100).toFixed(1);
-        const carbamazepineCC = ((20 * weight) / 100 * 5).toFixed(1);
+        const carbamazepineCC = ((10 * weight) / 100 * 5).toFixed(1);
 
         $('#result-section').html(`
             <h2>Results</h2>
@@ -282,7 +282,6 @@ $(document).ready(function() {
             { name: 'Aminophylline (250 mg/10 ml ampoule, loading)', dose: 5, frequency: 1, concentration: 250 / 10 },
             { name: 'Aminophylline (250 mg/10 ml ampoule, maintenance)', dose: 2, frequency: 2, concentration: 250 / 10 },
             { name: 'Lasix (20 mg/2 ml ampoule)', dose: 1, frequency: 2, concentration: 20 / 2 },
-            { name: 'Metronidazole (500 mg/100 ml vial)', dose: 5, frequency: 3, concentration: 500 / 100 }
         ];
 
         return others.map(other => {
