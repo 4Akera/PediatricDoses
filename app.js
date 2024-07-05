@@ -256,8 +256,8 @@ $(document).ready(function() {
 
     function calculateAntibiotics(weight) {
         const antibiotics = [
-            { name: 'Ceftriaxone (1 g/10 ml vial)', dose: 25, frequency: 2, concentration: 500 / 10 },
-            { name: 'Vancomycin (1 g/10 ml vial)', dose: 20, frequency: 3, concentration: 500 / 10 },
+            { name: 'Ceftriaxone (1 g/10 ml vial)', dose: 25, frequency: 2, concentration: 1000 / 10 },
+            { name: 'Vancomycin (1 g/10 ml vial)', dose: 20, frequency: 3, concentration: 1000 / 10 },
             { name: 'Acyclovir (250 mg/10 ml vial)', dose: 10, frequency: 3, concentration: 250 / 10 },
             { name: 'Metronidazole (Flagyl, 500 mg/100 ml vial)', dose: 5, frequency: 3, concentration: 500 / 100 },
             { name: 'Amoxicillin (500 mg/10 ml vial)', dose: 50, frequency: 2, concentration: 500 / 10 },
