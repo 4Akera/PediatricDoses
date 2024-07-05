@@ -193,7 +193,7 @@ $(document).ready(function() {
             { name: 'Ondansetron (4 mg/5 ml) Syrup', dose: 0.15, concentration: 4 / 5, frequency: 3 },
             { name: 'Chlorpheniramine (2 mg/5 ml) Syrup', dose: 0.1, concentration: 2 / 5, frequency: 3 },
             { name: 'Albuterol (2 mg/5 ml) Syrup', dose: 0.1, concentration: 2 / 5, frequency: 3 },
-            { name: 'Dexamethasone (0.5 mg/5 ml) Syrup', dose: 0.2, concentration: 0.5 / 5, frequency: 3 },
+            { name: 'Dexamethasone (0.5 mg/5 ml) Syrup', dose: 0.05, concentration: 0.5 / 5, frequency: 3 },
             { name: 'Ketotifen (1 mg/5 ml) Syrup', dose: 0.05, concentration: 1 / 5, frequency: 1 },
             { name: 'Zinc Syrup', dose: weight < 1 ? 10 : 20, concentration: 1, frequency: 1, isFixed: true },
             { name: 'ORS', dose: 30, concentration: 1, isFixed: true }
